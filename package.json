@@ -1,0 +1,17 @@
+{
+  "name": "cordova_plugin_hello",
+  "version": "0.1.1",
+  "description": "toasty",
+  "cordova": {
+    "id": "cordova_plugin_hello",
+    "platforms": [
+        "cordova-android",
+        "cordova-ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Pastaboss Enterprise",
+  "license": "ISC"
+}
