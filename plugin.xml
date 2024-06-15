@@ -1,18 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova_plugin_hello" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>hello</name>
-    <js-module name="hello" src="www/hello.js">
-        <clobbers target="cordova.plugin.hello" />
+<plugin id="cordova_plugin_toasty" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>toasty</name>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module name="toasty" src="www/toasty.js">
+        <clobbers target="cordova.plugins.toasty" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="hello">
-                <param name="android-package" value="cordova.plugin.hello.hello" />
+            <feature name="toasty">
+                <param name="android-package" value="cordova.plugins.toasty.toasty" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml">
         </config-file>
-        <source-file src="src/android/hello.java" target-dir="src/cordova/plugin/hello" />
+        <source-file src="src/android/toasty.java" target-dir="src/cordova/plugin/toasty" />
     </platform>
 </plugin>

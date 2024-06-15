@@ -1,28 +1,20 @@
 {
-  "name": "@pastaboss/cordova_plugin_hello",
-  "version": "0.1.1",
-  "description": "toasty",
-  "cordova": {
-    "id": "@pastaboss/cordova_plugin_hello",
-    "platforms": [
+    "name": "cordova_plugin_toasty",
+    "version": "0.1.1",
+    "description": "device toast plugin",
+    "cordova": {
+      "id": "cordova_plugin_toasty",
+      "platforms": [
+        "cordova-android",
+        "cordova-ios"
+      ]
+    },
+    "keywords": [
+      "ecosystem:cordova",
+      "cordova",
       "cordova-android",
-      "cordova-ios"
-    ]
-  },
-  "keywords": [
-    "ecosystem:cordova"
-  ],
-  "author": "Pastaboss Enterprise",
-  "license": "ISC",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rossmarinaro/cordova-toast-plugin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rossmarinaro/cordova-toast-plugin/issues"
-  },
-  "homepage": "https://github.com/rossmarinaro/cordova-toast-plugin#readme"
+      "hello"
+    ],
+    "author": "Pastaboss Enterprise",
+    "license": "ISC"
 }
